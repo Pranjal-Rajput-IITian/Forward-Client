@@ -42,4 +42,4 @@ async def Kanger(c: Client, m: Message):
             break
         except Exception as err:
             await c.send_message(chat_id="me", text=f"#ERROR: `{err}`")
-    await m.edit(text="Channel Files Successfully Kanged!\n\n©️ A Forwarder Userbot by @AbirHasan2005")
+    await m.edit(text="Channel Files Successfully Sended...")
