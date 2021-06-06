@@ -1,6 +1,8 @@
 # (c) @AbirHasan2005
 
 import asyncio
+import random
+
 from configs import Config
 from pyrogram import Client
 from pyrogram.types import Message
@@ -30,7 +32,7 @@ async def Kanger(c: Client, m: Message):
     await asyncio.sleep(2)
     await m.edit(text="Trying to Forward Now ...")
     async for message in c.iter_history(chat_id=int(Config.FORWARD_FROM_CHAT_ID), reverse=True):
-        await asyncio.sleep(Config.SLEEP_TIME)
+        await asyncio.sleep(random.randint(10,20))
         try:
             try_forward = await ForwardMessage(c, message)
             if try_forward == 400:
