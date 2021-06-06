@@ -1,5 +1,5 @@
 # Forward-Client
-This is Telegram Messages Forwarder Userbo
+This is Telegram Messages Forwarder Userbot.
 
 Use this at your own risk. I will not be responsible for any kind of issue while using this! Better use a different Telegram Account instead of using Main Telegram Account.
 
