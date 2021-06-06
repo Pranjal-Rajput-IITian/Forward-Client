@@ -26,7 +26,7 @@ async def main(client: Client, message: Message):
             await asyncio.sleep(e.x)
         return
     if (message.text == "!start") and (message.from_user.id == (await client.get_me()).id):
-        await message.edit(text=f"Hi, **{(await client.get_me()).first_name}**!\nThis is a Forwarder Userbot by @AbirHasan2005", parse_mode="Markdown",
+        await message.edit(text=f"Hi, **{(await client.get_me()).first_name}**!\nThis is a Forwarder Userbot", parse_mode="Markdown",
                            disable_web_page_preview=True)
     elif (message.text == "!help") and (message.from_user.id == (await client.get_me()).id):
         await message.edit(
