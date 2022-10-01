@@ -25,9 +25,6 @@ This is Telegram Messages Forwarder Userbot.
 - `!restart` - Restart Heroku App Dyno Workers.
 - `!stop` - Stop Kanger & Restart Service.
 
-### Support Group:
-<a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
-
 ### ~Deploy Now:~
 
 ### Host Locally:
