@@ -7,7 +7,7 @@ This is Telegram Messages Forwarder Userbot.
 - Forward From Chat To Chat.
 - Automatically forward new messages From Chat To Chat.
 - Userbot 😁
-- Simple & Userfriendly 😅
+- Simple & User-friendly 😅
 
 ### Configs:
 - `API_ID` - Get from my.telegram.org or [@TeleORG_Bot](https://t.me/TeleORG_Bot)
@@ -35,3 +35,5 @@ pip3 install -r requirements.txt
 # Setup Configurations in configs.py file!
 python3 main.py
 ```
+Feel Free to contribute :-) 
+Happy Hacking
