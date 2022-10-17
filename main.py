@@ -6,6 +6,7 @@ import os
 import sys
 import time
 import asyncio
+import pylance
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
@@ -36,10 +37,10 @@ async def main(client: Client, message: Message):
         if Config.HEROKU_APP is None:
             await message.edit(
                 text="Restarting Userbot ...",
-                parse_mode="Markdown",
+                parse_mode="txt",
                 disable_web_page_preview=True
             )
-            # https://stackoverflow.com/a/57032597/15215201
+            https://stackoverflow.com/a/57032597/15215201
             os.execl(sys.executable, sys.executable, *sys.argv)
         else:
             await message.edit(
