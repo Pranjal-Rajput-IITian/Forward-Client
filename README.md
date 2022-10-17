@@ -1,4 +1,4 @@
-# Forward-Client
+# Forward Client
 This is Telegram Messages Forwarder Userbot.
 
 ### Features:
@@ -24,8 +24,6 @@ This is Telegram Messages Forwarder Userbot.
 - `!kang` - Start All Messages Kanger.
 - `!restart` - Restart Heroku App Dyno Workers.
 - `!stop` - Stop Kanger & Restart Service.
-
-### ~Deploy Now:~
 
 ### Host Locally:
 ```sh
